@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: blueviolet;
+}
+.container{
+    width: 70%;
+    border: 2px solid grey;
+    margin: auto;
+    background-color: blueviolet;
+    color: white;
+    font-size: 17px;
+    padding: 30px 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
