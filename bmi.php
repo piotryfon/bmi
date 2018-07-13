@@ -16,7 +16,7 @@
 				$wzrost = $_POST['wzrost'];
 				$waga = $_POST['waga'];
 				if ($wzrost && $waga){
-				echo "Wzrost: " . $wzrost . " - " . "Waga: " . $waga . " Prawidlowe bmi 18 - 24,99";
+				echo "Wzrost: " . $wzrost . " - " . "Waga: " . $waga . ". Prawidłowe bmi: 18 - 24,99";
 				echo "<br/><hr/>";
 				$wMetry = $wzrost/100;
 				$bmi = ($waga)/pow($wMetry, 2);
@@ -27,18 +27,18 @@
 					echo "Waga prawidlowa, twoje bmi: " . $roundBmi;
 				} else if ($bmi > 24.99) {
 					echo "Nadwaga, twoje bmi: " . $roundBmi;
-				} else echo "zle dane";
+				} else echo "złe dane!";
 				echo "<br/><br/>";
 				echo '<a 
 					style="text-decoration: none;
 					font-size: 18px; color: blue";
-					href="index.php">powrot
+					href="index.php">powrót
 					</a>';
 			}
 			else{
 				echo "Podaj prawidłowe dane!";
 				echo "<br/><hr/>";
-				echo "Sprawdz czy wypelniles prawidlowo wszystkie pola.";
+				echo "Sprawdź, czy prawidłowo wypełniłeś wszystkie pola?";
 				echo "<br/><br/>";
 				echo '<a 
 					style="text-decoration: none;

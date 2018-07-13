@@ -11,12 +11,12 @@
 <body>
     <br/><br/>
     <div class="container">
-        <h4>Oblicz swoje bmi</h4>
+        <h4>Oblicz bmi!</h4>
         <form action="bmi.php" method="post">
 			podaj swój wzrost w cm:
             <input name="wzrost" type="number" >
 			<br><br>
-			podaj swoja wage w kg:
+			podaj swoją wagę w kg:
             <input name="waga" type="number" />
             <br/><br/>
             <input type="submit" name="policz" value="policz"/>
